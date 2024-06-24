@@ -6,11 +6,79 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* <========Loding effect========> */
+.loader {
+    width: 65px;
+    aspect-ratio: 1;
+    position: relative;
+  }
+  
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    box-shadow: 0 0 0 3px inset #f88e03;
+    animation: l4 2.5s infinite;
+  }
+  
+  .loader:after {
+    animation-delay: -1.25s;
+  }
+  
+  @keyframes l4 {
+    0% {
+      inset: 0 35px 35px 0;
+    }
+  
+    12.5% {
+      inset: 0 35px 0 0;
+    }
+  
+    25% {
+      inset: 35px 35px 0 0;
+    }
+  
+    37.5% {
+      inset: 35px 0 0 0;
+    }
+  
+    50% {
+      inset: 35px 0 0 35px;
+    }
+  
+    62.5% {
+      inset: 0 0 0 35px;
+    }
+  
+    75% {
+      inset: 0 0 35px 35px;
+    }
+  
+    87.5% {
+      inset: 0 0 35px 0;
+    }
+  
+    100% {
+      inset: 0 35px 35px 0;
+    }
+  }
+  
+  .loding_effect {
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* <========navbar==========> */
+
 .socal {
     width: 100%;
     height: 8vh;
     background-color: #2B2D37;
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-items: center;
     color: white;
@@ -158,7 +226,7 @@
     width: 100%;
     color: white;
     height: 10vh;
-    display: flex;
+    display: none;
     justify-content: flex-end;
     align-items: center;
 }
@@ -235,6 +303,7 @@ ul {
 
 .maincontenar {
     width: 100%;
+    display: none;
 }
 
 .maincontenar img {
@@ -471,10 +540,10 @@ ul {
     height: 352px;
     background-color: #2D3E4E;
     bottom: 0px;
-    display: flex;
+    display: none;
     bottom: -62rem;
     color: white;
-    display: grid;
+    /* display: grid; */
 }
 
 .footers .companyinformation {
@@ -596,3 +665,4 @@ ul {
     height: 200px;
     border: 0;
 }
+
