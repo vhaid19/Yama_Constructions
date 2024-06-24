@@ -292,7 +292,7 @@
 /* .section4 .headin{
 } */
 
-.service2 .section3 .socalmedia {
+.service2 .section3 .socalme {
     width: 29vw;
     height: 28vh;
     margin-top: 10vw;
@@ -304,12 +304,12 @@
     flex-wrap: wrap;
 }
 
-.service2 .section3 .socalmedia:hover {
+.service2 .section3 .socalme:hover {
     background-color: rgb(32, 30, 30);
     transition: .2s linear;
 }
 
-.service2 .section3 .socalmedia .socalmed {
+.service2 .section3 .socalme .socalmed {
     color: white;
     background: transparent;
     display: flex;
@@ -319,7 +319,7 @@
     flex-wrap: wrap;
 }
 
-.service2 .section3 .socalmedia .div1,
+.service2 .section3 .socalme .div1,
 .div2 {
     width: 2px;
     height: 15px;
@@ -328,20 +328,20 @@
 
 }
 
-.service2 .section3 .socalmedia .div1 {
+.service2 .section3 .socalme .div1 {
     margin-top: 25px;
     right: 3px;
     position: relative;
 }
 
-.service2 .section3 .socalmedia .div2 {
+.service2 .section3 .socalme .div2 {
     margin-top: 42px;
     /* display: inline; */
     right: 5px;
     position: relative;
 }
 
-.service2 .section3 .socalmedia .socialicon {
+.service2 .section3 .socalme .socialicon {
     width: 100%;
     background-color: transparent;
     display: flex;
@@ -349,11 +349,11 @@
     gap: 10px;
 }
 
-.service2 .section3 .socalmedia .socialicon a {
+.service2 .section3 .socalme .socialicon a {
     background-color: transparent;
 }
 
-.service2 .section3 .socalmedia .socialicon img {
+.service2 .section3 .socalme .socialicon img {
     background-color: transparent;
     width: 4vw;
 }
