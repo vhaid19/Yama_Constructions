@@ -10,6 +10,18 @@ menu.addEventListener("click", ()=>{
 
 })
 
+let loder = document.querySelector(".loader");
+window.addEventListener("load", ()=>{
+  let loding = document.querySelector(".loding_effect");
+  loding.style.display = "none";
+  let navbar = document.querySelector(".navbar")
+  navbar.style.display = "block";
+  let contenar = document.querySelector(".main")
+  contenar.style.display = "block";
+  let footer = document.querySelector(".footer")
+  footer.style.display = "flex";
+})
+
 let menus = document.querySelector(".services");
 menus.addEventListener("mouseover", ()=>{
     let menuss = document.querySelector(".menus").classList;

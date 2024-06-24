@@ -6,12 +6,81 @@
   /* cursor:all-scroll; */
 }
 
+/* <==========Loding Effect===========> */
+.loader {
+  width: 65px;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  position: absolute;
+  border-radius: 50px;
+  box-shadow: 0 0 0 3px inset #f88e03;
+  animation: l4 2.5s infinite;
+}
+
+.loader:after {
+  animation-delay: -1.25s;
+}
+
+@keyframes l4 {
+  0% {
+    inset: 0 35px 35px 0;
+  }
+
+  12.5% {
+    inset: 0 35px 0 0;
+  }
+
+  25% {
+    inset: 35px 35px 0 0;
+  }
+
+  37.5% {
+    inset: 35px 0 0 0;
+  }
+
+  50% {
+    inset: 35px 0 0 35px;
+  }
+
+  62.5% {
+    inset: 0 0 0 35px;
+  }
+
+  75% {
+    inset: 0 0 35px 35px;
+  }
+
+  87.5% {
+    inset: 0 0 35px 0;
+  }
+
+  100% {
+    inset: 0 35px 35px 0;
+  }
+}
+
+.loding_effect {
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* <==========Navbar==========> */
 .navbar {
   width: 100%;
   height: 20vh;
   /* background-color: red; */
   border-bottom: 1px solid white;
   border-radius: 0px 0px 20px 20px;
+  display: none;
 }
 
 .navbar .nav1 {
@@ -24,7 +93,7 @@
   border-bottom: 1px solid white;
 }
 
-.social_contact a{
+.social_contact a {
   text-decoration: none;
 }
 
@@ -150,11 +219,11 @@ a {
   left: 0;
 }
 
-.menus{
+.menus {
   display: none;
 }
 
-.showmenus{
+.showmenus {
   width: 25vw;
   height: 36vh;
   display: flex;
@@ -173,6 +242,7 @@ a {
 .main {
   width: 100%;
   height: auto;
+  display: none;
 }
 
 .background-contenar {
@@ -384,7 +454,7 @@ footer {
   width: 100%;
   height: 35vh;
   background-color: #2D3E4E;
-  display: flex;
+  display: none;
   justify-content: space-around;
 }
 
@@ -457,7 +527,7 @@ footer .address {
   height: 30vh;
 }
 
-a{
+a {
   background-color: transparent;
 }
 
@@ -510,7 +580,7 @@ a{
     width: 42vw;
   }
 
-  .menulogo{
+  .menulogo {
     width: 15vw;
     height: 40%;
     /* background-color: white; */
@@ -521,29 +591,29 @@ a{
     z-index: 99;
   }
 
-  .menulogo .line{
+  .menulogo .line {
     width: 28px;
-        height: 2px;
-        background-color: white;
-        margin: auto;
+    height: 2px;
+    background-color: white;
+    margin: auto;
   }
 
-  .hidemain{
+  .hidemain {
     display: none;
   }
 
-  .main .background-contenar{
+  .main .background-contenar {
     width: 100%;
     height: fit-content;
   }
 
-  .main .background-contenar img{
+  .main .background-contenar img {
     width: 100%;
     height: fit-content;
     object-fit: cover;
   }
 
-  .main .sort_info{
+  .main .sort_info {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -551,13 +621,13 @@ a{
     margin-top: 5px;
   }
 
-  .main .sort_info .section1{
+  .main .sort_info .section1 {
     width: 100%;
     height: 50%;
     margin: 0px;
   }
 
-  .main .sort_info .section1 h1{
+  .main .sort_info .section1 h1 {
     width: 90%;
     margin: 10px 0px 0px 20px;
     color: white;
@@ -565,7 +635,7 @@ a{
     font-size: 23px;
   }
 
-  .sort_info .section1 .yama_keypoint{
+  .sort_info .section1 .yama_keypoint {
     position: relative;
     display: flex;
     /* justify-content: center; */
@@ -579,17 +649,17 @@ a{
     margin-top: 10px;
   }
 
-  .sort_info .section1 .yama_keypoint .box .icon{
+  .sort_info .section1 .yama_keypoint .box .icon {
     color: #f96e2b;
     font-size: 15px;
     /* margin-left: 78px;*/
   }
 
-  .sort_info .section1 .yama_keypoint .box .text{
+  .sort_info .section1 .yama_keypoint .box .text {
     font-size: 15px;
   }
 
-  .hidefooter{
+  .hidefooter {
     display: none;
   }
 }
