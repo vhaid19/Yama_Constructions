@@ -666,3 +666,9 @@ ul {
     border: 0;
 }
 
+.footers .address{
+    width: 19vw;
+    display: flex;
+    margin: auto;
+    height: 27vh;
+}
