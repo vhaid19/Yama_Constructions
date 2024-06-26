@@ -1,7 +1,7 @@
 
 # Yama Consturctions
 
-The Yama Constructions website showcases our expertise in civil engineering, featuring project portfolios, service details, and client testimonials. Users can explore our innovative and sustainable construction solutions, learn about our team, and contact us for inquiries. Visit us at [yama-construction.versal.app](https://example.com) for more information.
+The Yama Constructions website showcases our expertise in civil engineering, featuring project portfolios, service details, and client testimonials. Users can explore our innovative and sustainable construction solutions, learn about our team, and contact us for inquiries. Visit us at [https://yama-constructions.vercel.app/](https://example.com) for more information.
 
 ![Logo](/images/yama.png)
 
