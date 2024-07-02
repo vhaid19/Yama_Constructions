@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    /* background-color: rgb(225, 40, 40); */
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: red; */
+
+}
+
+.droplist{
+    display: none;
+}
+
+.displaytext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    /* right: 15vw; */
+    width: 28vw;
+    border-radius: 20px;
+    z-index: 1;
+    gap: 40px;
+    background: #a2919182;
+    height: 35vh;
+}
+
+.displaytext li {
+    background: transparent;
+}
+
+.displaytext li a{
+    background-color: transparent;
+}
+
+.navbar .menu {
+    width: 25vw;
+    height: 4rem;
+    display: flex;
+    margin-right: 5rem;
+    flex-wrap: wrap;
+}
+
+#menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-right: 10rem;
+    /* position: absolute; */
+    /* text-decoration: none; */
+}
+
+#menus li {
+    text-transform: uppercase;
+    /* margin: 25px 0px; */
+    list-style: none;
+    position: relative;
+}
+
+#menus li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 23px;
+}
+
+.displaytext li a::after {
+    background: none repeat scroll 0 0 transparent;
+    /* bottom: 0; */
+    content: "";
+    position: absolute;
+    width: 100%;
+    /* color: white; */
+    display: block;
+    height: 2px;
+    /* left: 25%; */
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.displaytext li a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.maincontenar {
+    width: 100%;
+    height: 50rem;
+    background: url(/images/consulting\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.maincontenar h1 {
+    position: absolute;
+    color: white;
+    background: none;
+    top: 35rem;
+    left: 10rem;
+    font-size: xxx-large;
+}
+
+.secondcontenar {
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* position: relative; */
+}
+
+.secondcontenar .section1 {
+    color: white;
+    position: relative;
+    top: 10rem;
+    width: 50%;
+    height: 35vh;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.secondcontenar .section1 .info {
+    width: 79%;
+    height: 100%;
+    font-size: 19px;
+}
+
+.secondcontenar .section2 {
+    color: white;
+    position: relative;
+    top: 10rem;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondcontenar .section2 img {
+    width: 85%;
+}
+
+.secondcontenar .heading1 {
+    color: #FF7B00;
+    z-index: 1;
+    bottom: 1rem;
+    position: relative;
+    margin-top: 10rem;
+    margin-right: 57rem;
+}
+
+.secondcontenar .section3 {
+    display: flex;
+    width: 50%;
+    position: relative;
+    left: 10rem;
+}
+
+.secondcontenar .section4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+    z-index: 1;
+}
+
+.secondcontenar .section4 .infos {
+    width: 79%;
+    height: 100%;
+    font-size: 19px;
+}
+
+.secondcontenar .heading {
+    height: 5rem;
+    color: #FF7B00;
+    z-index: 1;
+    bottom: 1rem;
+    position: relative;
+    margin-top: 10rem;
+    margin-right: 15rem;
+    left: 32rem;
+}
+
+.secondcontenar .section5 {
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.secondcontenar .section5 .infoss {
+    width: 75%;
+    height: 100%;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.secondcontenar .section6 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 21rem;
+    background-color: #2D3E4E;
+    position: absolute;
+    top: 151rem;
+    display: grid;
+    justify-content: space-around;
+    color: white;
+    grid-template-columns: 33.33% 35% 31.33%;
+}
+
+footer .socalmedia {
+    background: #2D3E4E;
+    height: 21rem;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 70%;
+    grid-template-rows: 103px 100px 75px;
+}
+
+footer .socalmedia .heading2 {
+    background-color: #2D3E4Eed;
+    color: white;
+}
+
+footer .socalmedia p {
+    background-color: #2D3E4E;
+    text-align: justify;
+}
+
+footer .socalmedia .socalmediass {
+    DISPLAY: FLEX;
+    justify-content: space-around;
+    width: 15rem;
+    background-color: #2D3E4E;
+}
+
+footer .socalmedia .socalmediass img {
+    transform: scale(1);
+    background-color: #2D3E4E;
+    transition: transform 0.5s;
+}
+
+footer .socalmedia .socalmediass img:hover {
+    transform: scale(1.5);
+}
+
+footer .informationlinks {
+    background-color: #2D3E4E;
+    display: grid;
+    height: 21rem;
+    justify-content: center;
+    grid-template-rows: 98px 143px;
+    grid-template-columns: 70%;
+    text-align: center;
+    grid-row-gap: 1rem;
+    align-items: center;
+}
+
+footer .informationlinks .heading3 {
+    background-color: #2D3E4E;
+}
+
+footer .informationlinks .alllinks {
+    display: grid;
+    grid-template-columns: 66px 86px;
+    justify-content: space-around;
+    grid-template-rows: 38px 44px;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #2D3E4E;
+}
+
+footer .informationlinks .alllinks .Home,
+.Aboutss,
+.Servicess,
+.Contacts {
+    background-color: #2D3E4E;
+}
+
+footer .informationlinks .alllinks .Home a{
+    color: white;
+    text-decoration: none;
+    background-color: #2D3E4E;
+}
+footer .informationlinks .alllinks .Aboutss a{
+    color: white;
+    text-decoration: none;
+    background-color: #2D3E4E;
+}
+footer .informationlinks .alllinks .Servicess a{
+    color: white;
+    text-decoration: none;
+    background-color: #2D3E4E;
+}
+footer .informationlinks .alllinks .Contacts a{
+    color: white;
+    text-decoration: none;
+    background-color: #2D3E4E;
+}
+
+footer .loacation {
+    display: grid;
+    grid-template-rows: 95px 196px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D3E4E;
+}
+
+footer .loacation .heading4 {
+    background-color: #2D3E4E;
+}
+
+footer .loacation .div1 {
+    background-color: #2D3E4E;
+}
+
+a{
+    background-color: transparent;
+}

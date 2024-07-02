@@ -1,0 +1,668 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #000000;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* <========Loding effect========> */
+.loader {
+    width: 65px;
+    aspect-ratio: 1;
+    position: relative;
+  }
+  
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    box-shadow: 0 0 0 3px inset #f88e03;
+    animation: l4 2.5s infinite;
+  }
+  
+  .loader:after {
+    animation-delay: -1.25s;
+  }
+  
+  @keyframes l4 {
+    0% {
+      inset: 0 35px 35px 0;
+    }
+  
+    12.5% {
+      inset: 0 35px 0 0;
+    }
+  
+    25% {
+      inset: 35px 35px 0 0;
+    }
+  
+    37.5% {
+      inset: 35px 0 0 0;
+    }
+  
+    50% {
+      inset: 35px 0 0 35px;
+    }
+  
+    62.5% {
+      inset: 0 0 0 35px;
+    }
+  
+    75% {
+      inset: 0 0 35px 35px;
+    }
+  
+    87.5% {
+      inset: 0 0 35px 0;
+    }
+  
+    100% {
+      inset: 0 35px 35px 0;
+    }
+  }
+  
+  .loding_effect {
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* <========navbar==========> */
+
+.socal {
+    width: 100%;
+    height: 8vh;
+    background-color: #2B2D37;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.socal .additional {
+    display: flex;
+    gap: 55px;
+    background-color: #2B2D37;
+}
+
+.socal .additional .mail {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 128px;
+    background-color: #2B2D37;
+}
+
+.socal .additional .img {
+    background-color: #2B2D37;
+}
+
+.socal .additional .img img {
+    background-color: #2B2D37;
+}
+
+.socal .additional .call {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 128px;
+    background-color: #2B2D37;
+}
+
+.socal .additional .Time {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 140px;
+    background-color: #2B2D37;
+}
+
+.socal .additional .emaill {
+    margin-left: 4px;
+    margin-top: -2px;
+    background-color: #2B2D37;
+}
+
+.socal .additional .email {
+    margin-left: 10px;
+    background-color: #2B2D37;
+}
+
+.socal .additional .Contact {
+    margin-left: 10px;
+    background-color: #2B2D37;
+}
+
+.socal .additional .Contactt {
+    margin-left: 4px;
+    margin-top: -2px;
+    background-color: #2B2D37;
+}
+
+.socal .additional .Timee {
+    margin-left: 10px;
+    background-color: #2B2D37;
+}
+
+.socal .additional .times {
+    margin-left: 4px;
+    margin-top: -2px;
+    background-color: #2B2D37;
+}
+
+.socal .contacts {
+    display: flex;
+    gap: 16px;
+    background-color: #2B2D37;
+}
+
+.socal .contacts a {
+    background-color: #2B2D37;
+}
+
+/* .socal .contacts a{
+    position: relative;
+} */
+
+.socal .contacts a img {
+    background-color: #2B2D37;
+    /* position: relative; */
+}
+
+/* .socal .mycontacts a img::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.socal .mycontacts a img:hover::after {
+    width: 100%;
+    left: 0;
+} */
+
+/* @media screen and (max-width: 800px) {
+    .contacts a {
+        display: none;
+    }
+
+    .contacts a .icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .contacts .responsive {
+        position: relative;
+    }
+
+    .contacts .responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .contacts .responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+} */
+
+.navbar {
+    background-color: #000000;
+    width: 100%;
+    color: white;
+    height: 10vh;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.droplist{
+    display: none;
+} 
+    
+.displaytext{
+    display: flex;
+    flex-wrap: wrap;
+    width: 24vw;
+    height: 37vh;
+    top: 70px;
+    z-index: 99;
+    align-items: center;
+    gap: 21px;
+    /* margin-right: 80px; */
+    background: #6e676759;
+    justify-content: center;
+    border-radius: 20px;
+    position: absolute;
+    right: 30px;
+}
+
+.navbar ul .droplist li{
+    font-size: 20px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 24px;
+    margin-right: 170px;
+    height: 7vh;
+    align-items: center;
+}
+
+.navbar ul li {
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    letter-spacing: 0.1rem;
+    background-color: transparent;
+}
+
+.navbar ul li a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 1;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+.maincontenar {
+    width: 100%;
+    display: none;
+}
+
+.maincontenar img {
+    width: 100%;
+}
+
+.maincontenar .information {
+    width: 90%;
+    height: 131vh;
+    background-color: #1E1E1E;
+    border-radius: 50px;
+    margin: 5%;
+    position: absolute;
+    margin-top: -76px;
+    z-index: 1;
+    color: white;
+}
+
+.maincontenar .information .companyinfo {
+    color: white;
+    /* margin-top: 75px; */
+    width: 93%;
+    margin: 75px auto;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.maincontenar .information .companyinfo .abouts {
+    font-size: 37px;
+    color: orange;
+    background-color: #1E1E1E;
+}
+
+.maincontenar .information .companyinfo .CompanyOverview{
+    background-color: #1E1E1E;
+}
+
+.maincontenar .information .companyinfo .CompanyOverview button {
+    width: 15vw;
+    height: 44px;
+    color: white;
+    background-color: #1E1E1E;
+    border: 2px solid #FF7B00;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.maincontenar .information .companyinfo .CompanyOverview button img {
+    color: #FF7B00;
+    background-color: #1E1E1E;
+    width: 19px;
+}
+.maincontenar .information .companyinfo .OurHistory{
+    background-color: #1E1E1E;
+}
+.maincontenar .information .companyinfo .OurHistory button {
+    width: 11vw;
+    height: 44px;
+    color: white;
+    background-color: #1E1E1E;
+    border: 2px solid #FF7B00;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.maincontenar .information .companyinfo .OurHistory button img {
+    color: #FF7B00;
+    background-color: #1E1E1E;
+    width: 19px;
+}
+
+.information .companyinfo .buttons {
+    display: flex;
+    gap: 24px;
+    background-color: #1e1e1e;
+}
+
+.maincontenar .information .companyinfo .OurTeam{
+    background-color: #1e1e1e;
+}
+
+.maincontenar .information .companyinfo .OurTeam button {
+    width: 10vw;
+    height: 44px;
+    color: white;
+    background-color: #1E1E1E;
+    border: 2px solid #FF7B00;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.maincontenar .information .companyinfo .OurTeam button img {
+    color: #FF7B00;
+    background-color: #1E1E1E;
+    width: 19px;
+}
+
+.maincontenar .information .companyinfo .Misson {
+    width: 29%;
+    margin-right: 632px;
+    margin-top: 49px;
+    background-color: #1e1e1e;
+}
+
+.maincontenar .information .companyinfo .Misson .missoninfo {
+    background-color: #1E1E1E;
+}
+
+.maincontenar .information .companyinfo .Vision {
+    width: 29%;
+    /* margin-right: 632px; */
+    margin-top: -62px;
+    background-color: #1e1e1e;
+    margin-left: 39rem;
+}
+
+.maincontenar .information .companyinfo .Vision .visioninfo {
+    background-color: #1E1E1E;
+}
+
+.maincontenar .information hr {
+    width: 80%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+    margin: 41px 0px auto;
+}
+
+.maincontenar .information .companyoverview {
+    color: white;
+    background-color: #1E1E1E;
+
+}
+
+.maincontenar .information .companyoverview span {
+    background-color: #1E1E1E;
+    font-size: 35px;
+    margin-left: 11rem;
+}
+
+.maincontenar .information .companyoverview .fristp {
+    background-color: #1e1e1e;
+    margin-left: 13rem;
+    margin-top: 29px;
+    font-size: 21px;
+    width: 73%;
+    font-weight: 100;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 15px;
+}
+
+.maincontenar .information .companyoverview .secondp {
+    background-color: #1e1e1e;
+    margin-left: 13rem;
+    margin-top: 29px;
+    font-size: 21px;
+    width: 73%;
+    font-weight: 100;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 15px;
+}
+
+.maincontenar .information .companyoverview .theredp {
+    background-color: #1e1e1e;
+    margin-left: 13rem;
+    margin-top: 29px;
+    font-size: 21px;
+    width: 73%;
+    font-weight: 100;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 15px;
+}
+
+.maincontenar .information .ourprojects {
+    background-color: #1E1E1E;
+    margin-top: 55px;
+}
+
+.maincontenar .information .ourprojects span {
+    background-color: #1E1E1E;
+    font-size: 35px;
+    margin-left: 11rem;
+}
+
+.maincontenar .information .ourprojects .marq {
+    background-color: black;
+    width: 80%;
+    /* margin: auto; */
+    margin-left: 11rem;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+.maincontenar .information .ourprojects .marq img {
+    width: 10vw;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 17px 50px 17px 0px;
+
+}
+
+.maincontenar .information .ourprojects .marq .img9 {
+    scale: 1.4;
+    margin-bottom: 35px;
+    margin-left: 35px;
+}
+
+.footers {
+    width: 100%;
+    height: 352px;
+    background-color: #2D3E4E;
+    bottom: 0px;
+    display: none;
+    bottom: -62rem;
+    color: white;
+    /* display: grid; */
+}
+
+.footers .companyinformation {
+    background-color: #2D3E4E;
+    height: 45vh;
+}
+
+.footers .companyinformation .namess a {
+    color: orange;
+    text-decoration: none;
+    background-color: #2D3E4E;
+    font-size: 20px;
+}
+
+.footers .companyinformation .namess {
+    background-color: #2D3E4E;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 6rem;
+    left: 15rem;
+}
+
+.footers .companyinformation .description {
+    width: 20%;
+    background-color: #2D3E4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 7rem;
+    left: 16rem;
+}
+
+.footers .companyinformation .socalicon {
+    background-color: transparent;
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    top: 8rem;
+    left: 15rem;
+    gap: 10px;
+
+}
+
+.footers .companyinformation .socalicon a img {
+    background-color: transparent;
+}
+
+.socalicon a img:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.footers .companyinformation .socalicon a {
+    background-color: transparent;
+}
+
+.footers .companyinformation .quicklinks {
+    background-color: transparent;
+    width: 15%;
+    height: 230px;
+    display: grid;
+    /* justify-content: center; */
+    /* align-items: center; */
+    top: -50px;
+    left: 45rem;
+}
+
+.footers .companyinformation .quicklinks h1 {
+    background-color: #2D3E4E;
+}
+
+.footers .companyinformation .quicklinks .links {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 40px;
+    margin: auto;
+    bottom: 60px;
+    right: 33px;
+    background-color: #2D3E4E;
+}
+
+/* .footers .companyinformation .quicklinks .links div {
+    background-color: #2D3E4E;
+} */
+
+.footers .companyinformation .quicklinks .links a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+    /* color: #999999; */
+}
+
+.footers .companyinformation .contactsus {
+    background-color: #2D3E4E;
+    width: 19%;
+    height: 242px;
+    display: grid;
+    /* justify-content: center; */
+    /* align-items: center; */
+    bottom: 280px;
+    left: 70rem;
+}
+
+.footers .companyinformation .contactsus h1 {
+    background-color: #2D3E4E;
+}
+
+.footers .companyinformation .contactsus .div1 {
+    background-color: #2D3E4E;
+}
+
+.footers .companyinformation .contactsus .div1 iframe {
+    width: 300px;
+    height: 200px;
+    border: 0;
+}
+
