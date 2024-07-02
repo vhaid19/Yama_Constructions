@@ -237,6 +237,7 @@ a {
   border-radius: 20px;
   list-style: none;
   align-items: center;
+  z-index: 99;
 }
 
 .main {
