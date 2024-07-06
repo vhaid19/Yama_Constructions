@@ -237,6 +237,7 @@ a {
   border-radius: 20px;
   list-style: none;
   align-items: center;
+  z-index: 99;
 }
 
 .main {
@@ -249,10 +250,27 @@ a {
   width: 100%;
   height: 100vh;
   display: flex;
+  position: relative;
+  margin: auto;
   /* justify-content: center;
     align-items: center; */
   /* position: relative; */
   /* overflow: hidden; */
+}
+
+.mySlides{
+  width: 100%;
+  display: none;
+}
+
+.fade{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 .background-contenar img {
