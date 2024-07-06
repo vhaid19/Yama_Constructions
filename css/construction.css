@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
@@ -15,7 +15,7 @@
     justify-content: flex-end;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     background: transparent;
@@ -130,7 +130,7 @@
     background-color: white;
 }
 
-.maincontenar{
+.maincontenar {
     display: none;
 }
 
@@ -156,7 +156,7 @@
     color: orange;
 }
 
-.sidemenu{
+.sidemenu {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -418,11 +418,11 @@
     margin-top: 20px;
 }
 
-.contenar .Residential .span1{
+.contenar .Residential .span1 {
     width: 50px;
 }
 
-.contenar .Residential .span2{
+.contenar .Residential .span2 {
     width: 100%;
 }
 
@@ -555,7 +555,7 @@
     width: 20vw;
 }
 
-.contenar2{
+.contenar2 {
     width: 100%;
     height: auto;
     margin: auto;
@@ -565,7 +565,7 @@
     margin-top: 20px;
 }
 
-.cross1{
+.cross1 {
     width: 2vw;
     background: content-box;
     position: absolute;
@@ -573,7 +573,7 @@
     transition: transform 0.5s;
 }
 
-.cross2{
+.cross2 {
     width: 2vw;
     background: content-box;
     position: absolute;
@@ -691,7 +691,7 @@ footer .informationlinks .alllinks .Servicess a {
     background-color: #2D3E4E;
 }
 
-a{
+a {
     background-color: transparent;
 }
 
@@ -775,7 +775,7 @@ footer .loacation .div1 {
     }
 }
 
-.loding_effect{
+.loding_effect {
     width: 100%;
     height: 100vh;
     z-index: 100;
@@ -827,7 +827,7 @@ footer .loacation .div1 {
         background-color: aquamarine;
     }
 
-    #droplist li{
+    #droplist li {
         color: white;
         text-decoration: none;
         /* margin-top: 10rem; */
@@ -946,10 +946,10 @@ footer .loacation .div1 {
         height: 93vh;
         /* display: none; */
         /* left: 75vw; */
-         margin-left: -160px; 
-         margin-top: 88px;
-        border-radius: 23px 0px 0px 23px; 
-    } 
+        margin-left: -160px;
+        margin-top: 88px;
+        border-radius: 23px 0px 0px 23px;
+    }
 
     .displaytext {
         color: white;
@@ -970,7 +970,7 @@ footer .loacation .div1 {
         height: 40vh;
     }
 
-    .service2 .section3{
+    .service2 .section3 {
         display: none;
     }
 
