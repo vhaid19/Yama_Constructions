@@ -180,11 +180,37 @@
       justify-content: center;
 }
 
-.maincontenar .backgroundimg img {
-      width: 100vw;
-      height: 91vh;
-      object-fit: contain;
+.background-contenar {
+      width: 100%;
+      height: 100vh;
+      display: flex;
       position: relative;
+      margin: auto;
+}
+
+.mySlides {
+      width: 100%;
+      display: none;
+}
+
+.fade {
+      /* animation-name: fade; */
+      animation-duration: 1.5s;
+}
+
+@keyframes fade {
+      from {
+            opacity: .4
+      }
+
+      to {
+            opacity: 1
+      }
+}
+
+.background-contenar img {
+      width: 100%;
+      height: 83vh;
 }
 
 p {
