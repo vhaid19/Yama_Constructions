@@ -90,33 +90,6 @@
 
 
 
-svg text {
-      font-family: Lora;
-      letter-spacing: 5px;
-      stroke: orange;
-      font-size: 42px;
-      font-weight: 500;
-      stroke-width: 1;
-      animation: textAnimate 5s infinite alternate;
-}
-
-@keyframes textAnimate {
-      0% {
-            stroke-dasharray: 0 50%;
-            stroke-dashoffset: 20%;
-            fill: hsl(32, 100%, 50%)
-      }
-
-      100% {
-            stroke-dasharray: 50% 0;
-            stroke-dashoffset: -20%;
-            fill: hsla(189, 68%, 75%, 0%)
-      }
-
-}
-
-
-
 .droplist {
       display: none;
 }
@@ -288,6 +261,72 @@ p {
             margin-top: 0;
       }
 
+      6% {
+            margin-top: 0;
+      }
+
+      12% {
+            margin-top: -5.62rem;
+      }
+
+      18% {
+            margin-top: -5.62rem;
+      }
+
+      24% {
+            margin-top: -5.62rem;
+      }
+
+      30% {
+            margin-top: -5.62rem;
+      }
+
+      42% {
+            margin-top: -11.24rem;
+      }
+
+      48% {
+            margin-top: -11.24rem;
+      }
+
+      54% {
+            margin-top: -11.24rem;
+      }
+
+      60% {
+            margin-top: -11.24rem;
+      }
+
+      66% {
+            margin-top: -5.62rem;
+      }
+
+      72% {
+            margin-top: -5.62rem;
+      }
+
+      78% {
+            margin-top: -5.62rem;
+      }
+
+      84% {
+            margin-top: -5.62rem;
+      }
+
+      90% {
+            margin-top: 0rem;
+      }
+
+      100% {
+            margin-top: 0rem;
+      }
+}
+
+/* @keyframes text-animation {
+      0% {
+            margin-top: 0;
+      }
+
 
       7% {
             margin-top: 0;
@@ -332,7 +371,9 @@ p {
       100% {
             margin-top: 0;
       }
-}
+} */
+
+
 
 .servicess h1 {
       width: 84%;
