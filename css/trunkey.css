@@ -245,161 +245,16 @@ p {
       text-align: justify;
 }
 
-.animation>div>div {
-      padding: 0.25rem 0.75rem;
-      height: 2.81rem;
-      margin-bottom: 2.81rem;
-      display: inline-block;
-      background-color: transparent;
+#line{
+      display: block;
 }
 
-.animation div:first-child {
-      animation: text-animation 3.5s infinite;
-      background-color: transparent;
-}
-
-.first,
-.div {
+.letter{
+      position: absolute;
+      display: none;
       background-color: transparent;
       color: black;
 }
-
-.second,
-.div {
-      background-color: transparent;
-      color: black;
-}
-
-.third,
-.div {
-      background-color: transparent;
-      color: black;
-}
-
-.four,
-.div {
-      background-color: transparent;
-      color: black;
-}
-
-@keyframes text-animation {
-      0% {
-            margin-top: 0;
-      }
-
-      6% {
-            margin-top: 0;
-      }
-
-      12% {
-            margin-top: -5.62rem;
-      }
-
-      18% {
-            margin-top: -5.62rem;
-      }
-
-      24% {
-            margin-top: -5.62rem;
-      }
-
-      30% {
-            margin-top: -5.62rem;
-      }
-
-      42% {
-            margin-top: -11.24rem;
-      }
-
-      48% {
-            margin-top: -11.24rem;
-      }
-
-      54% {
-            margin-top: -11.24rem;
-      }
-
-      60% {
-            margin-top: -11.24rem;
-      }
-
-      66% {
-            margin-top: -5.62rem;
-      }
-
-      72% {
-            margin-top: -5.62rem;
-      }
-
-      78% {
-            margin-top: -5.62rem;
-      }
-
-      84% {
-            margin-top: -5.62rem;
-      }
-
-      90% {
-            margin-top: 0rem;
-      }
-
-      100% {
-            margin-top: 0rem;
-      }
-}
-
-/* @keyframes text-animation {
-      0% {
-            margin-top: 0;
-      }
-
-
-      7% {
-            margin-top: 0;
-      }
-
-      17% {
-            margin-top: -5.62rem;
-      }
-
-      27% {
-            margin-top: -5.62rem;
-      }
-
-      37% {
-            margin-top: -11.24rem;
-      }
-
-      47% {
-            margin-top: -11.24rem;
-      }
-
-      57% {
-            margin-top: -11.24rem;
-      }
-
-      67% {
-            margin-top: -5.62rem;
-      }
-
-      77% {
-            margin-top: -5.62rem;
-      }
-
-      87% {
-            margin-top: -5.62rem;
-      }
-
-      97% {
-            margin-top: 0;
-      }
-
-      100% {
-            margin-top: 0;
-      }
-} */
-
-
 
 .servicess h1 {
       width: 84%;

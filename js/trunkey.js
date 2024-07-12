@@ -40,5 +40,32 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3500); // Change image every 2 seconds
+  setTimeout(showSlides, 3500); 
 }
+
+const arr = []
+const arr2 = []
+const letters = document.querySelectorAll(".letter");
+// console.log(letters)
+
+
+letters.forEach((Val) => {
+  arr.push(Val.innerText)
+});
+
+arr.forEach(element => {
+  arr2.push(element.split(""))
+});
+
+// setInterval(()=>{
+  // let word = 1
+  for(let i = 1 ; i < arr2.length ; i++){
+    arr2[i].forEach((element) => {
+      const store = document.querySelector(".animation")
+      store.innerHTML +=`<span>${element}</span>`
+    });
+  }
+
+
+
+// console.log(arr2)
