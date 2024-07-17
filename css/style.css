@@ -419,6 +419,10 @@ a {
   font-size: 13px;
 }
 
+.services .conten img{
+  width: 165px;
+}
+
 .worked_projects {
   width: 100%;
   height: auto;
