@@ -172,7 +172,7 @@
 
 .maincontenar .backgroundimg {
       width: 100%;
-      height: 78vh;
+      height: 90vh;
       /* position: relative; */
       overflow: hidden;
       display: flex;
@@ -182,7 +182,7 @@
 
 .background-contenar {
       width: 100%;
-      height: 100vh;
+      height: 90vh;
       display: flex;
       position: relative;
       margin: auto;
@@ -210,7 +210,8 @@
 
 .background-contenar img {
       width: 100%;
-      height: 83vh;
+      height: 90vh;
+      object-fit: contain;
 }
 
 p {
@@ -313,18 +314,18 @@ p {
 }
 
 .service .section1 {
-      width: 40%;
-      height: 75vh;
+      width: 30%;
+      height: 70vh;
 }
 
 .service .section2 {
-      width: 60%;
-      height: 75vh;
+      width: 70%;
+      height: 70vh;
       display: flex;
       flex-wrap: wrap;
 }
 
-.service .section2 .headin {
+/* .service .section2 .headin {
       font-size: 40px;
       padding-top: 40px;
       padding-left: 20px;
@@ -335,22 +336,52 @@ p {
       width: 100%;
       height: 50vw;
       display: none;
-}
+} */
 
-.service2 .section3 {
+/* .service2 .section3 {
       width: 30%;
       height: 28vw;
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: wrap; */
       /* background-color: rgb(230, 230, 198); */
-}
+/* } */
 
-.service2 .section4 {
+/* .service2 .section4 {
       width: 70%;
       height: auto;
       display: flex;
-      /* background-color: rgb(194, 223, 194); */
+      /* background-color: rgb(194, 223, 194); 
       position: relative;
-      /* background: linear-gradient(10, 10, 10);             */
+      /* background: linear-gradient(10, 10, 10);             
       flex-wrap: wrap;
+} */
+
+
+.section2{
+      width: 80%;
+      height: 40vh;
+      margin: auto;
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.section2 .image{
+      width: 80%;
+    height: 35vh;
+    margin: 27px auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+      width: 100%;
+}
+
+.section2 .trunkeydis{
+      width: 80%;
+      height: auto;
+      text-align: justify;
+      color: white;
+      margin: 5px auto;
 }
