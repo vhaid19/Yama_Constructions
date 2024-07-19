@@ -28,18 +28,28 @@ window.addEventListener("load", ()=>{
 //   videos.style.display = "flex";
 })
 
-let slideIndex = 0;
-showSlides();
+// let arr = ["Vision System Design", "System integration", "Feasibility studies", "Installation & Support"];
+// let index = 0;
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3500); 
-}
+// setInterval(() => {
+//   let animation = document.querySelector(".displayvalue").innerHTML = arr[index]
+//   animation.innerHTML = arr[index];
+//   // animation.style.transition = "all 60s ease-in-out";
+//   index = (index + 1) % arr.length;
 
+// }, 8500);
+
+// for(let i = 1 ; i <= 4 ; i++){
+//   let display = document.querySelector(`.div${i}`)
+//   setInterval(() => {
+//     // display.style.top = "0px"
+//     console.log(display)
+//   }, 8000);
+// }
+
+// setInterval(() => {
+//   for(let i = 1 ; i <= 4 ; i++){
+//     let display = document.querySelector(`.div${i}`)
+//     console.log(display)
+//   }
+// }, 8000);
