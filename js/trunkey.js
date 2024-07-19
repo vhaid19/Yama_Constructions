@@ -28,28 +28,22 @@ window.addEventListener("load", ()=>{
 //   videos.style.display = "flex";
 })
 
-// let arr = ["Vision System Design", "System integration", "Feasibility studies", "Installation & Support"];
-// let index = 0;
+var vsOpts = {
+  $slides: $('.v-slide'),
+  $list: $('.v-slides'),
+  duration: 6,
+  lineHeight: 50
+}
 
-// setInterval(() => {
-//   let animation = document.querySelector(".displayvalue").innerHTML = arr[index]
-//   animation.innerHTML = arr[index];
-//   // animation.style.transition = "all 60s ease-in-out";
-//   index = (index + 1) % arr.length;
+var vSlide = new TimelineMax({
+  paused: true,
+  repeat: -1
+})
 
-// }, 8500);
-
-// for(let i = 1 ; i <= 4 ; i++){
-//   let display = document.querySelector(`.div${i}`)
-//   setInterval(() => {
-//     // display.style.top = "0px"
-//     console.log(display)
-//   }, 8000);
-// }
-
-// setInterval(() => {
-//   for(let i = 1 ; i <= 4 ; i++){
-//     let display = document.querySelector(`.div${i}`)
-//     console.log(display)
-//   }
-// }, 8000);
+vsOpts.$slides.each(function(i) {
+  vSlide.to(vsOpts.$list, vsOpts.duration / vsOpts.$slides.length, {
+    y: i * -1 * vsOpts.lineHeight,
+    ease: Elastic.easeOut.config(1, 0.4)
+  })
+})
+vSlide.play()
