@@ -585,6 +585,19 @@ ul {
     width: 40vw;
 }
 
+.ourprojects .customersatisfaction{
+    display: flex;
+    background-color: transparent;
+    margin-left: 11rem;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+}
+
+.ourprojects .customersatisfaction .imgblock{
+    border-radius: 20px;
+    margin-top: 5rem;
+}
+
 .footers {
     width: 100%;
     height: 352px;
