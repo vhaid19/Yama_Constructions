@@ -559,11 +559,6 @@ ul {
     background-color: transparent;
 }
 
-.ourprojects .quality  .imgblock:hover{
-    border: 5px solid white;
-    transition: border 40s ease-in-out;
-}
-
 .ourprojects .quality .qualityblock{
     color: white;
     background-color: transparent;
