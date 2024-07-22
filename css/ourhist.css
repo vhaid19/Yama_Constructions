@@ -389,81 +389,103 @@
 }
 
 .maincontenar .information .history .workhistory {
-    width: 70%;
+    width: 80%;
     top: 50px;
     margin: auto;
-    display: grid;
-    grid-template-columns: 527.97px 527.97px;
+    display: flex;
     justify-content: space-around;
     background-color: #1E1E1E;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .maincontenar .information .history .workhistory .box1 {
     background-color: #1E1E1E;
-    width: 85%;
+    width: 50%;
     text-align: justify;
+    font-size: 20px;
 }
 
 .maincontenar .information .history .workhistory .box2 {
     background-color: #1e1e1e;
-    width: auto;
-    left: 11rem;
+    width: 50%;
+    left: 2rem;
+    position: relative;
+    height: 37vh;
 }
 
 .maincontenar .information .history .workhistory .box2 img {
-    width: 85%;
+    width: 80%;
     height: 37vh;
-    right: 8rem;
+    /* right: rem; */
+    position: absolute;
+    margin: 0px 50px;
 }
 
 .maincontenar .information .history .workhistory .box3 {
     background-color: #1e1e1e;
-    width: auto;
+    width: 50%;
     /* left: 10rem; */
     top: 50px;
+}
+
+.maincontenar .information .history .workhistory .box3 img{
+    margin: 0px 50px;
 }
 
 .maincontenar .information .history .workhistory .box4 {
     background-color: #1E1E1E;
-    width: 85%;
-    left: 3rem;
+    width: 50%;
+    left: 2rem;
     top: 50px;
     text-align: justify;
+    font-size: 20px;
 }
 
 .maincontenar .information .history .workhistory .box5 {
     background-color: #1e1e1e;
-    width: 85%;
+    width: 50%;
     /* left: 10rem; */
     top: 100px;
     text-align: justify;
+    font-size: 20px;
 }
 
 .maincontenar .information .history .workhistory .box6 {
     background-color: #1E1E1E;
-    width: auto;
+    width: 50%;
     top: 100px;
-    left: 8rem;
+    left: 3rem;
+    position: relative;
+    height: 37vh;
+    margin: auto;
 }
 
 .maincontenar .information .history .workhistory .box6 img {
-    width: 85%;
+    width: 80%;
     height: 36vh;
-    right: 5rem;
+    /* right: 5rem; */
+    position: absolute;
+    margin: 0px 40px;
 }
 
 .maincontenar .information .history .workhistory .box7 {
     background-color: #1e1e1e;
-    width: auto;
+    width: 50%;
     /* left: 10rem; */
     top: 150px;
 }
 
+.maincontenar .information .history .workhistory .box7 img{
+    margin: 0px 50px;
+}
+
 .maincontenar .information .history .workhistory .box8 {
     background-color: #1E1E1E;
-    width: 85%;
+    width: 50%;
     left: 3rem;
     top: 150px;
+    font-size: 20px;
     text-align: justify;
 }
 
