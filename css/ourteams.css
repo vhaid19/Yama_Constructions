@@ -456,6 +456,50 @@
     background-color: #1E1E1E;
 }
 
+.maincontenar .information .teammembers .teamimg .img2 {
+        /* position: relative; */
+        background-color: #1e1e1e;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+}
+
+
+.maincontenar .information .teammembers .teamimg .img2 img {
+    position: absolute;
+    width: 60%;
+    /* margin: 25px 0px 0px 45px; */
+    /* background-color: #1e1e1e; */
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.maincontenar .information .teammembers .teamimg .img2 img:hover {
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px 10px #ff7b00;
+    transition-timing-function: ease-in-out;
+
+}
+
+.maincontenar .information .teammembers .teamimg .img2 h4 {
+    /* position: absolute; */
+    top: 140px;
+    /* left: 4rem; */
+    background-color: transparent;
+}
+
+.maincontenar .information .teammembers .teamimg .img2 P {
+    position: absolute;
+    top: 10rem;
+    /* left: 82px; */
+    /* background-color: #1E1E1E; */
+    background-color: transparent;
+}
+
 .maincontenar .information .teammembers .teamimg .img3 {
     position: relative;
     background-color: #1E1E1E;
