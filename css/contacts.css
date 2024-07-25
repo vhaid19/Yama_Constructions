@@ -75,9 +75,13 @@ a:after {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: #f88e03;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+}
+
+a:hover{
+  color:#f88e03;
 }
 
 a:hover:after {

@@ -77,6 +77,10 @@
     font-size: 23px;
 }
 
+a:hover{
+    color:#f88e03;
+  }
+
 .displaytext li a::after {
     background: none repeat scroll 0 0 transparent;
     /* bottom: 0; */
@@ -87,7 +91,7 @@
     display: block;
     height: 2px;
     /* left: 25%; */
-    background: #fff;
+    background: #f88e03;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
