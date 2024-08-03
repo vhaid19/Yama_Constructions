@@ -233,14 +233,14 @@ color: white;
 
 
 .background_image{
-width: 50%;
+width: 60%;
 height: 100vh;
 display: flex;
 overflow: hidden;
 }
 
 .background_image img{
-  width: 55vw;
+  width: 62vw;
   margin-top: 80px;
   /* overflow: hidden; */
 }
