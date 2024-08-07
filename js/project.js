@@ -32,7 +32,7 @@ document.querySelector(".navbar").animate(drop_down, dropdown_time);
 document.querySelector(".nav").animate(drop_down, dropdown_time)
 document.querySelector("h1").animate(slide_contenar,dropdown_time)
 document.querySelector(".managment_info ").animate(slideright_contenar, dropdown_time)
-document.querySelector("img ").animate(scaleimage, dropdown_time).style.opacity = "1"
+document.querySelector(".bk_image ").animate(scaleimage, dropdown_time).style.opacity = "1"
 
 }),0)
 
@@ -61,3 +61,12 @@ const scaleimage = [
   {transform: "scale(1)"},
 ]
 
+
+window.addEventListener("scroll",()=>{
+
+})
+
+const slide_imaes = [
+  {transform: "translateX(100%) scale(0)"},
+  {transform: "translateX(0%) scale(1)"}
+]
