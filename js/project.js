@@ -27,14 +27,14 @@ showmenu.addEventListener("click", ()=>{
 })
 
 
-window.addEventListener("load", ()=>{
+window.setTimeout(addEventListener("load", ()=>{
 document.querySelector(".navbar").animate(drop_down, dropdown_time);  
 document.querySelector(".nav").animate(drop_down, dropdown_time)
 document.querySelector("h1").animate(slide_contenar,dropdown_time)
 document.querySelector(".managment_info ").animate(slideright_contenar, dropdown_time)
 document.querySelector("img ").animate(scaleimage, dropdown_time).style.opacity = "1"
 
-})
+}),0)
 
 const dropdown_time = {
   duration: 1200,
