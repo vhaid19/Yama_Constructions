@@ -34,7 +34,21 @@ document.querySelector("h1").animate(slide_contenar,dropdown_time)
 document.querySelector(".managment_info ").animate(slideright_contenar, dropdown_time)
 document.querySelector(".bk_image ").animate(scaleimage, dropdown_time)
 document.querySelectorAll(" .content1 .content2 .content3 .content4 ").animate(slide_imaes, dropdown_time)
+
 }),0)
+
+window.setTimeout(addEventListener("scroll", ()=>{
+  document.querySelector(".content1").classList.add("addscales");
+  document.querySelector(".content2").classList.add("addscales");
+  document.querySelector(".content3").classList.add("addscales");
+  document.querySelector(".content4").classList.add("addscales");
+  document.querySelector(".content5").classList.add("addscales");
+  document.querySelector(".content6").classList.add("addscales");
+  document.querySelector(".content7").classList.add("addscales");
+  document.querySelector(".content8").classList.add("addscales");
+  document.querySelector("footer").animate(drop_up, dropdown_time);
+}),0)
+
 
 const dropdown_time = {
   duration: 1200,
@@ -61,14 +75,9 @@ const scaleimage = [
   {transform: "scale(1)"},
 ]
 
-window.addEventListener("scroll", ()=>{
-  document.querySelector(".content1").classList.add("addscales");
-  document.querySelector(".content2").classList.add("addscales");
-  document.querySelector(".content3").classList.add("addscales");
-  document.querySelector(".content4").classList.add("addscales");
-  document.querySelector(".content5").classList.add("addscales");
-  document.querySelector(".content6").classList.add("addscales");
-  document.querySelector(".content7").classList.add("addscales");
-  document.querySelector(".content8").classList.add("addscales");
-})
+const drop_up = [
+  {transform: "translateY(10ch)"},
+  {transform: "translateY(0ch)"}
+]
+
 
