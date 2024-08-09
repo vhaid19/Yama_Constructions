@@ -62,8 +62,13 @@ const scaleimage = [
 ]
 
 window.addEventListener("scroll", ()=>{
-  document.querySelector("figure").classList.add("addscales");
-  document.querySelector("figure").classList.add("addscales");
-  document.querySelector("figure").classList.add("addscales");
-  document.querySelector("figure").classList.add("addscales");
+  document.querySelector(".content1").classList.add("addscales");
+  document.querySelector(".content2").classList.add("addscales");
+  document.querySelector(".content3").classList.add("addscales");
+  document.querySelector(".content4").classList.add("addscales");
+  document.querySelector(".content5").classList.add("addscales");
+  document.querySelector(".content6").classList.add("addscales");
+  document.querySelector(".content7").classList.add("addscales");
+  document.querySelector(".content8").classList.add("addscales");
 })
+

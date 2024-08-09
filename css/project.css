@@ -313,13 +313,87 @@ figure > img {
     }
 }
 
+footer{
+  background-color: #2D3E4E;
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  justify-content: space-around;
+  animation: blury 3s ease-in-out ;
+}
 
+footer .companyname {
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* font-size: 30px; */
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  gap: 20px;
+}
 
+.companyname h1 {
+  color: #f96e2b;
+  font-size: 30px;
+  width: fit-content;
+  background-color: transparent;
+}
 
+.companyname p {
+  color: white;
+  width: 70%;
+  margin-left: 153px;
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+}
 
+.companyname .social {
+  display: flex;
+  width: fit-content;
+  background-color: transparent;
+}
 
+.companyname .social img {
+  background-color: transparent;
+}
 
+footer .menu {
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
 
+.menu a {
+  background-color: transparent;
+  width: fit-content;
+  display: flex;
+}
+
+footer .address {
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+
+.address iframe {
+  width: 25vw;
+  height: 30vh;
+}
+
+a {
+  background-color: transparent;
+}
 
 
 
