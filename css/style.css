@@ -696,6 +696,62 @@ a {
     font-size: 15px;
   }
 
+  .sort_info .section2{
+    width: 100%;
+    height: 50%;
+  }
+
+  .sort_info .section2 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .main .trust_reason{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .trust_reason h1{
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    height: fit-content;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .trust_reason .contenar{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 20px; */
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .trust_reason .contenar .Specialist{
+    display: flex;
+    /* gap: 20px; */
+    /* border: 1px solid white; */
+    /* padding: 10px 20px; */
+    width: 40%;
+    height: fit-content;
+    font-size: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .main .services{
+    display: none;
+  }
   .hidefooter {
     display: none;
   }
