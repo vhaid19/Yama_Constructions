@@ -214,8 +214,8 @@ a {
   width: 0;
 }
 
-a:hover{
-  color:#f88e03;
+a:hover {
+  color: #f88e03;
 }
 
 .nav2 .submenu li a:hover:after {
@@ -262,19 +262,24 @@ a:hover{
   /* overflow: hidden; */
 }
 
-.mySlides{
+.mySlides {
   width: 100%;
   display: none;
 }
 
-.fade{
+.fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 .background-contenar img {
@@ -426,7 +431,7 @@ a:hover{
   font-size: 13px;
 }
 
-.services .conten img{
+.services .conten img {
   width: 165px;
 }
 
@@ -611,14 +616,16 @@ a {
   }
 
   .menulogo {
-    width: 15vw;
-    height: 40%;
+    width: 14vw;
+    height: fit-content;
     /* background-color: white; */
     right: 40px;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 21px;
     z-index: 99;
+    gap: 6px;
   }
 
   .menulogo .line {
