@@ -816,12 +816,23 @@ a {
   justify-content: center;
   color: white;
   flex-wrap: wrap;
+  border-top: 1px solid white;
   }
 
   .worked_projects h1{
     font-size: 18px;
+    border: none;
+    margin-top: 20px;
   }
 
+  .worked_projects .images{
+    width: 80%;
+    height: auto;
+    /* background-color: red; */
+    margin: 15px auto;
+    column-count: 4;
+    column-gap: 10px;
+  }
 
   .footer{
     width: 100%;
