@@ -451,7 +451,7 @@ a:hover {
   /* background-color: red; */
   display: flex;
   justify-content: center;
-border-top: 1px solid white;
+  border-top: 1px solid white;
 }
 
 .worked_projects .images {
@@ -463,7 +463,7 @@ border-top: 1px solid white;
   column-gap: 10px;
 }
 
-.worked_projects .images img{
+.worked_projects .images img {
   max-width: 100%;
   display: block;
   padding: 5px;
@@ -480,10 +480,10 @@ figure {
   /* border: 1px solid white; */
   background-color: transparent;
   border-radius: 20px;
-  animation: blury 3s ease-in-out ;
+  animation: blury 3s ease-in-out;
 }
 
-figure > img {
+figure>img {
   grid-row: 1 / -1;
   grid-column: 1;
 }
@@ -799,33 +799,33 @@ a {
     font-size: 13px;
   }
 
-  .servic_contenar .conten img{
+  .servic_contenar .conten img {
     width: 140px;
   }
 
-  .services .conten h1{
+  .services .conten h1 {
     font-size: 20px;
     margin: 0px;
   }
 
 
-  .worked_projects{
+  .worked_projects {
     width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  color: white;
-  flex-wrap: wrap;
-  border-top: 1px solid white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+    border-top: 1px solid white;
   }
 
-  .worked_projects h1{
+  .worked_projects h1 {
     font-size: 18px;
     border: none;
     margin-top: 20px;
   }
 
-  .worked_projects .images{
+  .worked_projects .images {
     width: 80%;
     height: auto;
     /* background-color: red; */
@@ -834,34 +834,35 @@ a {
     column-gap: 10px;
   }
 
-  .footer{
+  .footer {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
   }
 
-  .footer .companyname{
+  .footer .companyname {
     width: 100%;
     height: auto;
     gap: 0px;
   }
 
-  .footer .companyname p{
+  .footer .companyname p {
     margin: 0px;
   }
 
-  .footer .menu{
+  .footer .menu {
     display: flex;
     width: 100%;
     height: auto;
   }
 
-  .footer .address{
+  .footer .address {
     width: 100%;
     height: 30vh;
   }
-  .footer .address iframe{
+
+  .footer .address iframe {
     width: 90%;
     height: 90%;
   }
@@ -869,4 +870,112 @@ a {
   .hidefooter {
     display: none;
   }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .nav1 .contact .box1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: transparent;
+    width: 17vw;
+  }
+
+  .navbar .nav1 .social_contact {
+    display: none;
+  }
+
+  .showmenus {
+    width: 32vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    position: absolute;
+    /* top: 83px; */
+    top: 93px;
+  }
+
+  .submenu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 41px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav2 .submenu li {
+    font-size: 15px;
+  }
+
+  .section1 .yama_keypoint .icon {
+    font-size: 20px;
+  }
+
+  .section1 .yama_keypoint .text {
+    font-size: 22px;
+  }
+
+  .trust_reason .contenar {
+    width: 100%;
+  }
+
+  .main .trust_reason {
+    height: 25vh;
+  }
+
+  .sort_info {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .sort_info .section2 img {
+    width: 100%;
+  }
+
+  .main .trust_reason .Specialist {
+    width: 15%;
+  }
+
+  .main .services {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+  }
+
+  .services .conten img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .services .conten {
+    width: 36vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 20px;
+    font-size: 10px;
+}
+
+.companyname p {
+  color: white;
+  width: 70%;
+  margin-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+}
 }
