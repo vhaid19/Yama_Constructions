@@ -617,23 +617,6 @@ a {
     top: 0;
   }
 
-  .navbar .nav2 ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0px;
-    text-decoration: none;
-    color: white;
-    background-color: transparent;
-    list-style: none;
-    position: relative;
-    text-transform: uppercase;
-    font-weight: 600;
-    cursor: pointer;
-    flex-wrap: wrap;
-    width: 42vw;
-  }
-
   .menulogo {
     width: 14vw;
     height: fit-content;
@@ -837,7 +820,7 @@ a {
   .footer {
     width: 100%;
     height: auto;
-    display: flex;
+    display: none;
     flex-direction: column;
   }
 
@@ -890,21 +873,18 @@ a {
   }
 
   .showmenus {
-    width: 32vw;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    position: absolute;
-    /* top: 83px; */
-    top: 93px;
+    width: 86vw;
+    height: 33vh;
+    top: 270px;
+    left: auto;
   }
 
   .submenu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 41px;
+    /* margin-right: 41px; */
+    margin: auto;
     text-decoration: none;
     color: white;
     background-color: transparent;
@@ -913,6 +893,7 @@ a {
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
+    flex-direction: column;
   }
 
   .nav2 .submenu li {
@@ -977,5 +958,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   background: transparent;
+}
+.show_not{
+  display: block;
 }
 }
