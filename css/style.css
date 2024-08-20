@@ -355,7 +355,7 @@ a:hover {
   align-items: center;
 }
 
-.main .trust_reason {
+.trust_reason {
   width: 100%;
   height: 55vh;
   display: flex;
@@ -712,7 +712,7 @@ a {
     height: 100%;
   }
 
-  .main .trust_reason {
+  #main .trust_reason {
     width: 100%;
     height: 70vh;
     display: flex;
@@ -741,7 +741,7 @@ a {
     flex-wrap: wrap;
   }
 
-  .trust_reason .contenar .Specialist {
+  #main .trust_reason .contenar .Specialist {
     display: flex;
     /* gap: 20px; */
     /* border: 1px solid white; */
@@ -877,10 +877,8 @@ a {
   }
 
   .showmenus {
-    width: 86vw;
-    height: 33vh;
-    top: 270px;
-    left: auto;
+    width: 32vw;
+        height: 22vh;
   }
 
   .submenu {
@@ -897,7 +895,7 @@ a {
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   .nav2 .submenu li {
@@ -916,7 +914,7 @@ a {
     width: 100%;
   }
 
-  .main .trust_reason {
+  .trust {
     height: 25vh;
   }
 
