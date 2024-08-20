@@ -475,7 +475,7 @@ a:hover{
 .maincontenar .information .teammembers .teamimg .img2 img {
     position: absolute;
     width: 60%;
-    /* margin: 25px 0px 0px 45px; */
+    margin: 20px 0px 0px 0px;
     /* background-color: #1e1e1e; */
     background-color: transparent;
     border-radius: 50%;
