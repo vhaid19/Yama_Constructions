@@ -233,12 +233,12 @@ a:hover {
   height: 36vh;
   display: flex;
   flex-direction: column;
-  margin: 0px;
+  margin-right: 150px;
   position: absolute;
   /* top: 83px; */
   top: 71px;
   background: #b1afaf69;
-  left: 125px;
+  /* left: 125px; */
   border-radius: 20px;
   list-style: none;
   align-items: center;
@@ -742,6 +742,23 @@ a {
     gap: 6px;
   }
 
+  .showmenus{
+    width: 90vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    position: absolute;
+    /* top: 83px; */
+    top: 266px;
+    background: #b1afaf69;
+    /* left: -103px; */
+    border-radius: 20px;
+    list-style: none;
+    align-items: center;
+    z-index: 99;
+  }
+
   .menulogo .line {
     width: 28px;
     height: 2px;
@@ -751,6 +768,23 @@ a {
 
   .hidemain {
     display: none;
+  }
+
+  .submenu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-right: 41px; */
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    flex-direction: column;
   }
 
   .main .background-contenar {

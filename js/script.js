@@ -10,6 +10,7 @@ function display_menu(){
   contenar.classList.toggle("show_not")
   let hides = document.querySelector(".footer").classList;
   hides.toggle("hidefooter");
+  let hides2 = document.querySelector("")
 }
 
 let loder = document.querySelector(".loader");
@@ -68,4 +69,3 @@ function menu_click(){
   document.querySelector(".menus").classList.toggle("showmenus");
   console.log("vahid")
 }
-
