@@ -69,3 +69,5 @@ function menu_click(){
   document.querySelector(".menus").classList.toggle("showmenus");
   console.log("vahid")
 }
+
+console.log(vahid)
