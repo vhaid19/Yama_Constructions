@@ -74,11 +74,18 @@
   }
 /* <========navbar==========> */
 
+.nav{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 15vh;
+}
+
 .socal {
     width: 100%;
     height: 10vh;
     background-color: #2B2D37;
-    display: none;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid white;
@@ -167,68 +174,18 @@
     background-color: #2B2D37;
 }
 
-/* .socal .contacts a{
-    position: relative;
-} */
-
 .socal .contacts a img {
     background-color: #2B2D37;
     /* position: relative; */
 }
 
-/* .socal .mycontacts a img::after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-.socal .mycontacts a img:hover::after {
-    width: 100%;
-    left: 0;
-} */
-
-/* @media screen and (max-width: 800px) {
-    .contacts a {
-        display: none;
-    }
-
-    .contacts a .icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width:800px) {
-    .contacts .responsive {
-        position: relative;
-    }
-
-    .contacts .responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .contacts .responsive a {
-        float: none;
-        display: block;
-        text-align: center;
-    }
-} */
 
 .navbar {
     background-color: #000000;
     width: 100%;
     color: white;
     height: 10vh;
-    display: none;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
 }
@@ -429,10 +386,12 @@ ul {
     margin-right: 632px;
     margin-top: 49px;
     background-color: #1e1e1e;
+    color: #FF7B00;
 }
 
 .maincontenar .information .companyinfo .Misson .missoninfo {
     background-color: #1E1E1E;
+    color: white;
 }
 
 .maincontenar .information .companyinfo .Vision {
@@ -441,10 +400,12 @@ ul {
     margin-top: -62px;
     background-color: #1e1e1e;
     margin-left: 39rem;
+    color: #FF7B00;
 }
 
 .maincontenar .information .companyinfo .Vision .visioninfo {
     background-color: #1E1E1E;
+    color: white;
 }
 
 .maincontenar .information hr {
@@ -768,4 +729,86 @@ ul {
     display: flex;
     margin: auto;
     height: 27vh;
+}
+
+.menulog{
+    width: 40vw;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div1 {
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+  }
+
+@media screen and (max-width: 1200px)  {
+    .socal{
+
+    }
+}
+
+@media screen and (max-width: 430px)  {
+    .socal, .navbar{
+        display: none;
+    }
+
+    .nav{
+        height: 10vh;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .menulog {
+        display: flex;
+    }
+
+    .maincontenar .information{
+        margin-top: -25px;
+    }
+
+    .information .companyinfo .buttons {
+        flex-direction: column;
+    }
+
+    .maincontenar .information .companyinfo .CompanyOverview  button{
+        width: 70vw;
+    }
+    
+    .maincontenar .information .companyinfo .OurHistory button{
+        width: 70vw;
+        gap: 80px;
+
+    }
+
+    .maincontenar .information .companyinfo .OurTeam button{
+        width: 70vw;
+        gap: 95px;
+
+    }
+
+    .maincontenar .information .companyinfo {
+        flex-direction: column;
+    }
+    
+
+    .maincontenar .information .companyinfo .Misson {
+        width: 100%;
+        /* margin-right: 632px; */
+        margin-top: 20px;
+        background-color: #1e1e1e;
+        margin-left: 0px;
+    }
+    .maincontenar .information .companyinfo .Vision {
+        width: 100%;
+        /* margin-right: 632px; */
+        margin-top: 20px;
+        background-color: #1e1e1e;
+         margin-left: 0px;
+    }
 }
