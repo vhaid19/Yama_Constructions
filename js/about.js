@@ -20,3 +20,11 @@ let hidemenu = document.querySelector(".droplist")
 hidemenu.addEventListener("mouseleave", ()=>{
     hidemenu.classList.remove("displaytext")
 })
+
+let menulog = document.querySelector(".menulog");
+
+menulog.addEventListener("click", ()=>{
+  let mobile_menu = document.querySelector("mobile_menu");
+  mobile_menu.classList.toggle("mobile_vison");
+  console.log('vahi')
+})
