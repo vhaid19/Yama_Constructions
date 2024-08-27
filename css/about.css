@@ -260,7 +260,7 @@ ul {
 }
 
 .mobile_menu{
-    /* display: none; */
+    display: none;
     position: absolute;
     /* background: black; */
     z-index: 2;
@@ -834,11 +834,11 @@ ul {
     background-color: white;
 }
 
-@media screen and (max-width: 1200px)  {
+/* @media screen and (max-width: 1200px)  {
     .socal{
 
     }
-}
+} */
 
 @media screen and (max-width: 430px)  {
 
