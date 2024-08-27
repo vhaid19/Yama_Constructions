@@ -297,6 +297,8 @@ ul {
     font-size: 37px;
     color: orange;
     background-color: #1E1E1E;
+    /* width: 12%; */
+    /* display: inline; */
 }
 
 .maincontenar .information .companyinfo .CompanyOverview{
@@ -510,6 +512,7 @@ ul {
 .ourprojects .quality .imgblock{
     border-radius: 20px;
     margin-top: 5rem;
+    background-color: transparent;
 }
 
 .ourprojects .quality img{
@@ -599,44 +602,45 @@ ul {
     background-color: #2D3E4E;
     bottom: 0px;
     display: none;
+    justify-content: space-around;
     /* bottom: -62rem; */
     color: white;
     /* display: grid; */
 }
 
-.footers .companyinformation {
-    background-color: #2D3E4E;
-    height: 45vh;
+.social_info{
+    background-color: transparent;
+    width: 100%;
 }
 
-.footers .companyinformation .namess a {
+.footers .namess a {
     color: orange;
     text-decoration: none;
     background-color: #2D3E4E;
     font-size: 20px;
 }
 
-.footers .companyinformation .namess {
+.footers .namess {
     background-color: #2D3E4E;
-    width: 10%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 6rem;
-    left: 15rem;
+    /* left: 15rem; */
 }
 
-.footers .companyinformation .description {
-    width: 20%;
+.footers .description {
+    width: 55%;
     background-color: #2D3E4E;
     display: flex;
     justify-content: center;
     align-items: center;
     top: 7rem;
-    left: 16rem;
+    left: 13rem;
 }
 
-.footers .companyinformation .socalicon {
+.footers .socalicon {
     background-color: transparent;
     display: flex;
     width: 15%;
@@ -648,7 +652,7 @@ ul {
 
 }
 
-.footers .companyinformation .socalicon a img {
+.footers .socalicon a img {
     background-color: transparent;
 }
 
@@ -657,33 +661,44 @@ ul {
     transition: 0.4s;
 }
 
-.footers .companyinformation .socalicon a {
+.footers .socalicon a {
     background-color: transparent;
 }
 
-.footers .companyinformation .quicklinks {
+.service_info{
     background-color: transparent;
-    width: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footers .quicklinks {
+    background-color: transparent;
+    width: 100%;
     height: 230px;
     display: grid;
     /* justify-content: center; */
     /* align-items: center; */
-    top: -50px;
-    left: 45rem;
+    /* top: -50px; */
+    /* left: 45rem; */
 }
 
-.footers .companyinformation .quicklinks h1 {
+.footers .quicklinks h1 {
     background-color: #2D3E4E;
+    text-align: center;
 }
 
-.footers .companyinformation .quicklinks .links {
-    display: grid;
-    grid-template-columns: auto auto;
+.footers .quicklinks .links {
+    /* display: grid; */
+    display: flex;
+    /* grid-template-columns: auto auto; */
     justify-content: center;
+    flex-wrap: wrap;
+    width: 15vw;
     gap: 40px;
     margin: auto;
     bottom: 60px;
-    right: 33px;
+    /* right: 33px; */
     background-color: #2D3E4E;
 }
 
@@ -691,7 +706,7 @@ ul {
     background-color: #2D3E4E;
 } */
 
-.footers .companyinformation .quicklinks .links a {
+.footers .quicklinks .links a {
     background-color: transparent;
     text-decoration: none;
     color: white;
@@ -699,26 +714,41 @@ ul {
     /* color: #999999; */
 }
 
-.footers .companyinformation .contactsus {
+.address_info{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footers .contactsus {
     background-color: #2D3E4E;
-    width: 19%;
-    height: 242px;
-    display: grid;
+    width: 100%;
+    height: 100%;
+    /* display: grid; */
     /* justify-content: center; */
     /* align-items: center; */
-    bottom: 280px;
-    left: 70rem;
+    /* bottom: 280px;
+    left: 70rem; */
+    display: flex;
+    flex-direction: column;
 }
 
-.footers .companyinformation .contactsus h1 {
+.footers .contactsus h1 {
     background-color: #2D3E4E;
+    text-align: center;
+    /* width: 100%; */
 }
 
-.footers .companyinformation .contactsus .div1 {
+.footers .contactsus .div1 {
     background-color: #2D3E4E;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 50px 0px;
 }
 
-.footers .companyinformation .contactsus .div1 iframe {
+.footers .contactsus .div1 iframe {
     width: 300px;
     height: 200px;
     border: 0;
@@ -739,13 +769,6 @@ ul {
     align-items: center;
     flex-direction: column;
 }
-
-.div1 {
-    width: 35px;
-    height: 2px;
-    background-color: white;
-    margin: 3px 0;
-  }
 
 @media screen and (max-width: 1200px)  {
     .socal{
@@ -770,10 +793,14 @@ ul {
 
     .maincontenar .information{
         margin-top: -25px;
+        width: 100%;
+        height: auto;
+        margin: 0px;
     }
 
     .information .companyinfo .buttons {
         flex-direction: column;
+        width: 100%;
     }
 
     .maincontenar .information .companyinfo .CompanyOverview  button{
@@ -810,5 +837,130 @@ ul {
         margin-top: 20px;
         background-color: #1e1e1e;
          margin-left: 0px;
+    }
+
+    .maincontenar .information .companyinfo .abouts{
+        width: 100%;
+    }
+
+    .maincontenar .information .companyoverview span {
+        background-color: #1E1E1E;
+        font-size: 26px;
+        margin-left: 0px;
+    }
+    .maincontenar .information .companyoverview .fristp {
+        margin: auto;
+        text-align: justify;
+        width: 90%;
+    }
+    .maincontenar .information .companyoverview .secondp{
+        margin: auto;
+        margin-top: 40px;
+        text-align: justify;
+        width: 90%;
+    }
+
+    .maincontenar .information .companyoverview .theredp{
+        margin: auto;
+        margin-top: 40px;
+        text-align: justify;
+        width: 90%;
+    }
+
+    .ourprojects .quality{
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .ourprojects .quality .imgblock {
+        border-radius: 20px;
+        margin: 0px 36px;
+        margin-top: 5rem;
+        background-color: transparent;
+    }
+
+    .ourprojects .quality img {
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .ourprojects .quality .qualityblock {
+        margin: 40px 0px;
+    }
+
+    .ourprojects .quality .qualityblock h1 {
+        font-size: 35px;
+    }
+
+    .ourprojects .quality .qualityblock .qualityinfo {
+        margin: 0px 25px;
+        width: 85%;
+    }
+
+    .ourprojects .customersatisfaction{
+        width: 100%;
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .ourprojects .customersatisfaction .imgblock img{
+        width: 80%;
+        margin: 0px 30px;
+    }
+    .ourprojects .customersatisfaction .satisfactionblock{
+        margin: 30px 0px;
+        width: 100%;
+    }
+
+    .ourprojects .customersatisfaction .satisfactionblock h1{
+        font-size: 30px;
+    }
+
+    .ourprojects .customersatisfaction .satisfactionblock .satisfactioninfo{
+        width: 90%;
+        margin: 10px 20px;
+    }
+
+    .footers{
+        top: 82rem;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .social_info{
+        height: 45vh;
+    }
+
+    .footers .namess{
+        background-color: #2D3E4E;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 6rem;
+        left: 0px;
+    }
+
+    .footers .namess a {
+        color: orange;
+        text-decoration: none;
+        background-color: #2D3E4E;
+        font-size: 40px;
+    }
+
+    .footers .description{
+        left: 5rem;
+    }
+
+    .footers .socalicon{
+        left: 10rem;
+    }
+
+    .service_info{
+        height: 40vh;
+    }
+
+    .footers .quicklinks .links{
+        width: 50vw;
     }
 }

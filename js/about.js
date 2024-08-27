@@ -13,7 +13,7 @@ window.addEventListener("load", ()=>{
   let contenar = document.querySelector(".maincontenar")
   contenar.style.display = "block";
   let footer = document.querySelector(".footers")
-  footer.style.display = "grid"
+  footer.style.display = "flex"
 })
 
 let hidemenu = document.querySelector(".droplist")
