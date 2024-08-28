@@ -519,7 +519,7 @@ a:hover{
 }
 
 .maincontenar .information .teammembers .teamimg .img3 img:hover {
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     box-shadow: 0px 0px 20px 10px #ff7b00;
     transition-timing-function: ease-in-out;
 }
