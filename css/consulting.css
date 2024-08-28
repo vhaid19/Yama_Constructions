@@ -192,12 +192,12 @@ a:hover{
 }
 
 .secondcontenar .heading {
-    height: 5rem;
+    height: 3rem;
     color: #FF7B00;
     z-index: 1;
-    bottom: 1rem;
+    bottom: 0rem;
     position: relative;
-    margin-top: 10rem;
+    margin-top: 2rem;
     margin-right: 15rem;
     left: 32rem;
 }
