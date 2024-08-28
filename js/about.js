@@ -21,10 +21,10 @@ hidemenu.addEventListener("mouseleave", ()=>{
     hidemenu.classList.remove("displaytext")
 })
 
-let menulog = document.querySelector(".menulog");
+let menulog = document.querySelector(".menulog")
 
 menulog.addEventListener("click", ()=>{
-  let mobile_menu = document.querySelector("mobile_menu");
-  mobile_menu.classList.toggle("mobile_vison");
-  console.log('vahi')
+  let menuvesion = document.querySelector(".mobile_menu");
+  menuvesion.classList.toggle("mobile_vison");
+  // console.log("vahid")
 })

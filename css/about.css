@@ -261,6 +261,10 @@ ul {
 
 .mobile_menu{
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     position: absolute;
     /* background: black; */
     z-index: 2;
@@ -269,53 +273,19 @@ ul {
 }
 
 .mobile_vison{
-    display: none;
-}
-
-ul {
     display: flex;
-    list-style: none;
-    justify-content:center;
-    flex-direction: column;
-    gap: 24px;
-    margin-right: 0px;
-    height: 100%;
-    width: 100%;    
-    align-items: center;
 }
 
-.mobile_menu ul li {
-    cursor: pointer;
-    position: relative;
-    text-transform: uppercase;
+.menu{
+    display: flex;
+    color: white;
 }
 
-.mobile_menu ul li a {
+.menu a{
     color: white;
     text-decoration: none;
-    font-size: 23px;
-    letter-spacing: 0.1rem;
-    background-color: transparent;
+    font-size: 30px;
 }
-
-.mobile_menu ul li a::after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 1;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-.mobile_menu ul li a:hover::after {
-    width: 100%;
-    left: 0;
-}
-
 
 .maincontenar {
     width: 100%;
