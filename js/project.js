@@ -27,15 +27,15 @@ showmenu.addEventListener("click", ()=>{
 })
 
 
-window.setTimeout(addEventListener("load", ()=>{
-document.querySelector(".navbar").animate(drop_down, dropdown_time);  
-document.querySelector(".nav").animate(drop_down, dropdown_time)
-document.querySelector("h1").animate(slide_contenar,dropdown_time)
-document.querySelector(".managment_info ").animate(slideright_contenar, dropdown_time)
-document.querySelector(".bk_image ").animate(scaleimage, dropdown_time)
-document.querySelectorAll(" .content1 .content2 .content3 .content4 ").animate(slide_imaes, dropdown_time)
+// window.setTimeout(addEventListener("load", ()=>{
+// document.querySelector(".navbar").animate(drop_down, dropdown_time);  
+// document.querySelector(".nav").animate(drop_down, dropdown_time)
+// document.querySelector("h1").animate(slide_contenar,dropdown_time)
+// document.querySelector(".managment_info ").animate(slideright_contenar, dropdown_time)
+// document.querySelector(".bk_image ").animate(scaleimage, dropdown_time)
+// document.querySelectorAll(" .content1 .content2 .content3 .content4 ").animate(slide_imaes, dropdown_time)
 
-}),0)
+// }),0)
 
 window.setTimeout(addEventListener("scroll", ()=>{
   document.querySelector(".content1").classList.add("addscales");
