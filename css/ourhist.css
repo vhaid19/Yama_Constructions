@@ -9,7 +9,9 @@
 .socal {
     width: 100%;
     height: 8vh;
-    background-color: #2B2D37;
+    background-color: transparent;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 1px solid white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,7 +21,7 @@
 .socal .additional {
     display: flex;
     gap: 55px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .mail {
@@ -27,15 +29,15 @@
     align-items: center;
     flex-wrap: wrap;
     width: 128px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .img {
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .img img {
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .call {
@@ -43,7 +45,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 128px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .Time {
@@ -51,50 +53,50 @@
     align-items: center;
     flex-wrap: wrap;
     width: 140px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .emaill {
     margin-left: 4px;
     margin-top: -2px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .email {
     margin-left: 10px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .Contact {
     margin-left: 10px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .Contactt {
     margin-left: 4px;
     margin-top: -2px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .Timee {
     margin-left: 10px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .additional .times {
     margin-left: 4px;
     margin-top: -2px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .contacts {
     display: flex;
     gap: 16px;
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 .socal .contacts a {
-    background-color: #2B2D37;
+    background-color: transparent;
 }
 
 /* .socal .contacts a{
@@ -102,7 +104,7 @@
 } */
 
 .socal .contacts a img {
-    background-color: #2B2D37;
+    background-color: transparent;
     /* position: relative; */
 }
 
