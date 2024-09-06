@@ -6,9 +6,10 @@ form.addEventListener('submit', (e) => {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const comment = document.getElementById('comment').value;
+    const phone = document.getElementById('Phone').value
 
     // Perform validation checks
-    if (!name || !email || !comment) {
+    if (!name || !email || !comment || !phone) {
         alert('Please fill in all fields.');
         return;
     }
@@ -16,6 +17,11 @@ form.addEventListener('submit', (e) => {
     if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
         alert('Please enter a valid email address.');
         return;
+    }
+
+    if(phone.length > 10){
+        alert('Please enter a valid phone number.');
+        return
     }
 
    let ans = numbr()
