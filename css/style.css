@@ -630,9 +630,9 @@ a {
     /* flex-direction: column; */
   }
 
-  .nav2 .submenu li {
+  /* .nav2 .submenu li {
     font-size: 15px;
-  }
+  } */
 
   .main .sort_info .section1{
     margin: 0px;
@@ -752,7 +752,7 @@ a {
     margin: 0px;
     position: absolute;
     /* top: 83px; */
-    top: 266px;
+    top: 255px;
     background: #b1afaf69;
     /* left: -103px; */
     border-radius: 20px;
@@ -787,6 +787,10 @@ a {
     font-weight: 600;
     cursor: pointer;
     flex-direction: column;
+  }
+
+  .nav2 .submenu li{
+    margin: 0px;
   }
 
   .main .background-contenar {
