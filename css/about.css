@@ -280,9 +280,42 @@ ul {
     display: flex;
 }
 
+.mobile_submenu{
+    position: absolute;
+    top: 455px;
+    color: white;
+    width: 80%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 30px;
+    background: gray;
+    border-radius: 20px;
+}
+
+.subme{
+    display: flex;
+    color: white;
+    background-color: transparent;
+}
+
+.subme a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.submenu_vison{
+    display: flex;
+}
+
 .menu{
     display: flex;
     color: white;
+    cursor: pointer;
 }
 
 .menu a{
@@ -1002,4 +1035,8 @@ ul {
     .footers .quicklinks .links{
         width: 50vw;
     }
+}
+
+.dispalu_none{
+    display: none;
 }

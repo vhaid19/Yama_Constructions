@@ -22,9 +22,28 @@ hidemenu.addEventListener("mouseleave", ()=>{
 })
 
 let menulog = document.querySelector(".menulog")
+let value = false;
 
 menulog.addEventListener("click", ()=>{
   let menuvesion = document.querySelector(".mobile_menu");
   menuvesion.classList.toggle("mobile_vison");
-  // console.log("vahid")
+
+  if (value != true){
+    document.querySelector(".maincontenar").style.display = "none"
+    document.querySelector(".footers").style.display = "none"
+    value = true;
+    console.log(value)
+  }else{
+    document.querySelector(".maincontenar").style.display = "block"
+    document.querySelector(".footers").style.display = "flex"
+    value = false;
+    console.log(value)
+  }
+  console.log("vahid")
+})
+
+let submenu = document.querySelector(".service");
+
+submenu.addEventListener("click",()=>{
+  document.querySelector(".mobile_submenu").classList.toggle("submenu_vison")
 })
