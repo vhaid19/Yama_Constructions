@@ -841,11 +841,23 @@ ul {
     background-color: white;
 }
 
-/* @media screen and (max-width: 1200px)  {
-    .socal{
-
+@media screen and (max-width: 1300px)  {
+    .socal .additional .Time{
+        width: 12vw;
     }
-} */
+
+    .ourprojects .quality .qualityblock{
+        margin-left: 3rem   ;
+    }
+
+    .ourprojects .customersatisfaction .satisfactionblock{
+        margin-left: 3rem;
+    }
+
+    .maincontenar .information{
+        height: 220vh;
+    }
+}
 
 @media screen and (max-width: 430px)  {
 
