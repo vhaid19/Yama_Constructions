@@ -857,6 +857,18 @@ ul {
     .maincontenar .information{
         height: 220vh;
     }
+    .maincontenar .information .companyinfo .CompanyOverview button{
+        width: 18vw;
+    }
+
+    
+.maincontenar .information .companyinfo .OurHistory button{
+        width: 13vw;
+    }
+
+    .maincontenar .information .companyinfo .OurTeam button{
+        width: 12vw;
+    }
 }
 
 @media screen and (max-width: 430px)  {
