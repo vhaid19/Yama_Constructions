@@ -364,6 +364,7 @@ footer .companyname {
 
 .companyname .social img {
   background-color: transparent;
+  cursor: pointer;
 }
 
 footer .menu {

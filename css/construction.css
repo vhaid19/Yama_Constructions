@@ -349,13 +349,15 @@
     gap: 10px;
 }
 
-.service2 .section3 .socalme .socialicon a {
+/* .service2 .section3 .socalme .socialicon a {
     background-color: transparent;
-}
+} */
 
 .service2 .section3 .socalme .socialicon img {
     background-color: transparent;
     width: 4vw;
+    height: 8vh;
+    cursor: pointer;
 }
 
 .section4 .headin {
@@ -630,9 +632,10 @@ footer .socalmedia .socalmediass {
 }
 
 footer .socalmedia .socalmediass img {
-    transform: scale(1);
+    /* transform: scale(1); */
     background-color: transparent;
     transition: transform 0.5s;
+    cursor: pointer;
 }
 
 footer .socalmedia .socalmediass img:hover {

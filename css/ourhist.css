@@ -95,17 +95,18 @@
     background-color: transparent;
 }
 
-.socal .contacts a {
+/* .socal .contacts  {
     background-color: transparent;
-}
+} */
 
 /* .socal .contacts a{
     position: relative;
 } */
 
-.socal .contacts a img {
+.socal .contacts img {
     background-color: transparent;
     /* position: relative; */
+    cursor: pointer;
 }
 
 /* .socal .mycontacts a img::after {
@@ -551,8 +552,9 @@ a:hover{
 
 }
 
-.footers .companyinformation .socalicon a img {
+.footers .companyinformation .socalicon img {
     background-color: #2D3E4E;
+    cursor: pointer;
 }
 
 .footers .companyinformation .socalicon a {

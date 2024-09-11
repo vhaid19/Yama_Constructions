@@ -266,6 +266,7 @@ footer .socalmedia .socalmediass img {
     transform: scale(1);
     background-color: #2D3E4E;
     transition: transform 0.5s;
+    cursor: pointer;
 }
 
 footer .socalmedia .socalmediass img:hover {

@@ -174,13 +174,18 @@
     background-color: transparent;
 }
 
-.socal .contacts a {
+/* .socal .contacts a {
     background-color: transparent;
+} */
+
+.socal .contacts img {
+    background-color: transparent;
+    cursor: pointer;
+    /* position: relative; */
 }
 
-.socal .contacts a img {
-    background-color: transparent;
-    /* position: relative; */
+.mycontacts img{
+    cursor: pointer;
 }
 
 
@@ -716,8 +721,9 @@ ul {
 
 }
 
-.footers .socalicon a img {
+.footers .socalicon img {
     background-color: transparent;
+    cursor: pointer;
 }
 
 .socalicon a img:hover{

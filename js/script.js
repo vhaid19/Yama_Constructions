@@ -13,7 +13,6 @@ function display_menu(){
   // let hides2 = document.querySelector("")
   document.querySelector(".menus").classList.remove("showmenus");
 }
-
 let loder = document.querySelector(".loader");
 window.addEventListener("load", ()=>{
   let loding = document.querySelector(".loding_effect");
@@ -58,7 +57,6 @@ function showSlides() {
 
 
 let width = window.innerWidth;
-// console.log(typeof(width))
 if(width <= 430){
   menus.removeEventListener("mouseover", menu_over)
   submenus.removeEventListener("mouseleave", menu_leave)
@@ -71,4 +69,3 @@ function menu_click(){
   console.log("vahid")
 }
 
-console.log(vahid)
