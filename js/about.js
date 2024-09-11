@@ -39,7 +39,8 @@ menulog.addEventListener("click", ()=>{
     value = false;
     console.log(value)
   }
-  console.log("vahid")
+  document.querySelector(".mobile_submenu").classList.remove("submenu_vison");
+  // console.log("vahid")
 })
 
 let submenu = document.querySelector(".service");

@@ -10,7 +10,8 @@ function display_menu(){
   contenar.classList.toggle("show_not")
   let hides = document.querySelector(".footer").classList;
   hides.toggle("hidefooter");
-  let hides2 = document.querySelector("")
+  // let hides2 = document.querySelector("")
+  document.querySelector(".menus").classList.remove("showmenus");
 }
 
 let loder = document.querySelector(".loader");
