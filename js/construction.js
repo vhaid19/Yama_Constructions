@@ -1,13 +1,15 @@
 
 function displaymenu(){
   let a = document.getElementById("menus");
-  // let b = document.body;
+  console.log("vahid")
   if(a.style.display == "none"){
     a.style.display = "block";
-    // b.style.display = "none";
+    document.querySelector(".maincontenar").style.display = "none"
+    document.querySelector("footer").style.display = "none"
   }else{
     a.style.display = "none";
-    // b.style.display = "block";
+    document.querySelector(".maincontenar").style.display = "block"
+    document.querySelector("footer").style.display = "grid"
   }
 }
 

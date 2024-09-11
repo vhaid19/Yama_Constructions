@@ -1237,10 +1237,10 @@ footer .loacation .div1 {
     }
 
     #menus {
-        width: 100vw;
+        width: 100%;
         background-color: black;
         position: fixed;
-        height: 90vh;
+        height: 100%;
         /* display: none; */
         left: 0vw;
         /* margin-left: -160px; */
