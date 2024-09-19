@@ -9,3 +9,8 @@ let submenuss = document.querySelector(".submenuss");
 submenuss.addEventListener("mouseleave", ()=>{
     submenuss.classList.remove("submenus");
 })
+
+let menu_icon = document.querySelector(".menu_icon");
+menu_icon.addEventListener('click', ()=>{
+    
+})
