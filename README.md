@@ -25,7 +25,7 @@ This repository contains images related to our projects and company activities. 
 
 ## Usage
 
-Explore this repository to get an overview of YamaConstructions’ work. For more detailed information, or to reach out for collaborations or inquiries, please visit our website or contact us directly.
+Explore this repository to get an overview of YamaConstructions’ work. For more detailed information, or to reach out for collaborations or inquiries, please visit our website or contact us directly.pokemon
 
 ## Contact
 
