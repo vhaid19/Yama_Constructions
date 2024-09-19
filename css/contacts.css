@@ -376,6 +376,7 @@ label {
   flex-wrap: wrap;
   top: 5rem;
   /* right: 27px; */
+  backdrop-filter: blur(4px);
   left: 60rem;
   border-radius: 20px;
   z-index: 6;
