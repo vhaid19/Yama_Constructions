@@ -11,6 +11,8 @@ submenuss.addEventListener("mouseleave", ()=>{
 })
 
 let menu_icon = document.querySelector(".menu_icon");
+let shows = true;
 menu_icon.addEventListener('click', ()=>{
-    
+    document.querySelector('.submenu').style.display = !shows;
+    shows = !shows;
 })
